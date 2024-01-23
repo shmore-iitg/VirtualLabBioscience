@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!--Google Tag Manager-->
+    <!--Google Tag Manager
     <script class="gtm">
         var dataLayer = [{
             'labName': 'Bioscience and Bioengineering IITG',
@@ -28,7 +28,7 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-W59SWTR');
     </script>
-    <!--End Google Tag Manager-->
+    End Google Tag Manager-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,12 +79,12 @@
 </head>
 
 <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
-    <!--Google Tag Manager (noscript)-->
+    <!--Google Tag Manager (noscript)
     <noscript class="gtm">
         <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0">
         </iframe>
       </noscript>
-    <!--End Google Tag Manager (noscript)-->
+    End Google Tag Manager (noscript)-->
 
     <header class="vlabs-header sticky-top bg-white">
         <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
@@ -360,84 +360,115 @@
                 </div>
                 
                 <div>
-                    <h3>Procedure :</h3>
+                    <h3>Procedure:</h3>
                     <div>
+                        <p>The following phases make up the general ELISA process:</p>
+                        <span style="font-weight:bold;">Coating: </span>
+                        <p>An antigen or antibody is applied to a solid polystyrene plate that has an affinity for its cognate antibody or antigen, respectively.</p>
+                        
+                        <span style="font-weight:bold;">Blocking: </span>
+                        <p>After coating, the plate is rinsed and covered with a blocking buffer to inhibit the sample and secondary antibody binding to non-specific locations on the plate.</p>                           
+
+                        <span style="font-weight:bold;">Sample addition: </span>
+                        <p>The sample containing the target antigen is introduced to the wells and allowed to interact with the captured antibody that has been immobilized. The wells are rinsed to get rid of any unbound material after an appropriate amount of incubation time.</p> 
+                            
+                        <span style="font-weight:bold;">Detection: </span>
+                        <p>The antigen that has previously been immobilized on the solid surface is allowed to attach to the detection antibody, which is specific to a distinct epitope of the antigen, after it has been added to the wells. Typically, an enzyme like horseradish peroxidase (HRP), alkaline phosphatase (ALP), or -galactosidase is used to mark the detecting antibody.</p>
+                        
+                        <span style="font-weight:bold;">Enzyme-substrate reaction: </span>
+                        <p>After washing, an enzyme substrate is introduced to the wells. The enzyme-substrate reacts with the enzyme label to create a detectable signal. Depending on the substrate being utilized, the signal may take the form of a color shift, fluorescence, or chemiluminescence.</p>
+                            
+                        <span style="font-weight:bold;">Data analysis: </span>
+                        <p>A microplate reader that detects the absorbance, fluorescence, or luminescence can quantify the signal produced, which is proportional to the amount of antigen in the sample.</p>
+                        <div style="text-align: center;">
+                            <img src="./img/image3.png" width="650px">
+                        </div>
+                        <br>
+                        
+                        <h3>Types of ELISA: </h3>
+                        <p>There are mainly four types of ELISA . Each of them has unique advantages, disadvantages, and suitability based on the application and the type of antigen being tested. The different types of ELISA namely are: </p>
+                        <p>
+                            <ul>
+                                <li>Direct</li>
+                                <li>Indirect</li>
+                                <li>Sandwich</li>
+                                <li>Competitive</li>
+                                <li>Open Sandwich</li>
+                            </ul>
+                        </p>    
                         <p>
                             <ol>
-                                <li><span style="text-decoration: underline;">Direct ELISA:</span>  This is the simplest ELISA technique in which the antigen present in
-                                    the sample is immobilized in the wells of a microtiter plate. The wells are then wash
-                                    thoroughly removing all the other unadsorbed antigen. An enzyme linked antibody
-                                    that is complementary to the antigen of interest is added to the wells and incubated for
-                                    some time. The well is again washed so that only the bound antigen-antibody complex
-                                    are left on the surface of the well. An substrate is then added which is converted into a
-                                    detectable product by the enzyme linked antibody. Detection may be based on color,
-                                    luminescence or fluorescence. Though this technique is much simpler and quicker
-                                    than the other ELISA methods, there are a few disadvantages:
-                                    <p>
-                                        <ul>
-                                            <li>Conjugating the antibody with an enzyme might reduce the affinity of the
-                                                antibody to the antigen, thus reducing the sensitivity of the reaction.
-                                            </li>
-                                            <li>The complex samples containing a range of different antigens will get
-                                                adsorbed onto the well along the antigen of interest. This will prove
-                                                problematic when the antigen of interest is in low abundance as it will reduce
-                                                the sensitivity of the test.
-                                            </li>
-                                        </ul>
-                                    </p>
+                                <li><span style="text-decoration: underline;">Direct ELISA:</span>  
+                                    <p>In Direct ELISA, the antigen or antibody is immobilized directly onto a surface. When the sample is added, any complementary molecules present will bind to the immobilized antigen or antibody. After washing off unbound substances, an enzyme-linked antibody or antigen is introduced. If the target is present, a reaction occurs, and a detectable signal is produced. This method is straightforward but may lack sensitivity and specificity due to non-specific binding.</p>
+                                    <br>                                
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                        <img src="./img/image4.png" width="400px">                                        
+                                    </div>                                    
                                 </li>
-                                <br>
-                                <li>
-                                 <span style="text-decoration: underline;">Indirect ELISA:</span>    In this method, the sample containing antigen is adsorbed onto the
-microtiter well. A complimentary antibody is then added forming a antigen-antibody
-complex. Any unbound antibody is then washed away. The presence of the antibody
-bound to the antigen is then detected by adding an enzyme linked secondary antibody.
-This secondary antibody is raised against the primary antibody. Any unbound
-secondary antibody is then washed away and then the substrate for the enzyme is
-added. The amount of the colored reaction products thus formed is measured by a
-specialized spectrophotometric plate readers that can measured the absorbance of all
-the wells. Higher signal amplification is obtained in indirect ELISA as one or more secondary antibody can bind to primary antibody. However, cross reactivity from
-secondary antibody might perturb the purpose of the assay.
+                                <li><span style="text-decoration: underline;">Indirect ELISA:</span>
+                                    <p>In Indirect ELISA, the antigen is immobilized on the surface. The sample containing antibodies is added. If specific antibodies are present, they bind to the antigen. After washing off unbound substances, an enzyme-labeled secondary antibody, which recognizes the primary antibody, is added. The enzyme reaction produces a signal. Indirect ELISA is versatile and widely used in disease diagnosis, especially for detecting antibodies in patient samples.</p>
+                                    <br>                                    
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                        <img src="./img/image5.png" width="400px">                                        
+                                    </div>                                    
+                                    </div>
                                 </li>
-                                <br>
-                                <li>
-                                <span style="text-decoration: underline;">Sandwich ELISA:</span>     In this ELISA, the antibody is immobilized instead of the antigen.
-These immobilized antibodies act as captured antibodies which are able to bind to
-specific antigen present in the sample with high affinity. A separate enzyme linked
-antibody is then used to detect the bound antigen as it recognizes a different epitope
-from that recognize by the immobilized first antibody. Thus, in this technique two
-separate antigen specific antibody are required and these antibodies need to bind to
-different epitopes of the same antigen. Any free secondary antibodies are washed
-away and a substrate for the enzyme is added. The amount of the colored reaction
-products is measured. Though this technique is highly flexible and sensitive, it is
-sometime difficult to find two different antibodies that recognize different epitopes on
-the antigen of interest and cooperate well in a sandwich format
+                                <li><span style="text-decoration: underline;">Sandwich ELISA:</span>  
+                                    <p>In Sandwich ELISA, the surface is coated with a capture antibody specific to the antigen of interest. The sample is added, and if the antigen is present, it binds to the capture antibody. After washing, a labeled detection antibody, recognizing a different epitope on the antigen, is added. This dual binding enhances specificity. After washing off unbound substances, a signal is generated. Sandwich ELISA is highly specific, making it suitable for quantitative analysis of antigens, especially in clinical diagnostics.</p>
+                                    <br>                                
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                        <img src="./img/image6.png" width="400px">                                        
+                                    </div>   
                                 </li>
-                                <br>
-                                <li>
-                                <span style="text-decoration: underline;">Competitive ELISA:</span>     Competitive ELISA is the most complex of all the known
-ELISA techniques. It is also known as inhibition ELISA because of the fact that it
-uses an inhibitor antigen. In this ELISA, the sample containing the antigen of interest
-is first incubated with an unlabelled primary antibody that leads to the formation of
-antigen-antibody complex. Since the antibody is used in excessive amount compared
-to the antigen there are free antibodies left. In the next step the antigen-antibody
-mixture is added to the plate coated with the inhibitor antigen. This inhibitor antigen
-can also bind with the primary antibody. The free antibody molecules are the only
-ones capable of binding to the inhibitor antigen while the antigen-antibody complexes
-do not bind and therefore washed off. The enzyme labelled secondary antibody is then
-added to the plate which binds the primary antibody bound to the inhibitor antigen.
-Finally, a substrate is added to react with the enzyme to emit a quantifiable signal for
-detection. The final signal in this procedure in inversely associated with the amount of
-antigen present in the sample. This means more the antigen present in the sample, the
-weaker will be the final signal.
+                                <li><span style="text-decoration: underline;">Competitive ELISA:</span>
+                                    <p>Competitive ELISA involves competition between a labeled antigen or antibody and the antigen in the sample for binding sites on a solid-phase-bound antibody or antigen. If the sample antigen concentration is high, it competes more effectively, leading to reduced binding of the labeled molecule. After washing, a signal is generated. Competitive ELISA is useful when specificity is crucial and is often employed to detect small molecules or drugs.</p>
+                                    <br>                                
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                        <img src="./img/image7.png" width="400px">
+                                    </div>                                    
                                 </li>
+                                <li><span style="text-decoration: underline;">Open Sandwich ELISA (OS-ELISA):</span>
+                                    <p>OS-ELISA utilizes DNA technology. When the antigen is present, the interaction between variable regions of heavy and light chains (VH and VL) is enhanced. This complex formation is detected using an enzyme-labeled antibody. OS-ELISA offers high specificity for both macromolecules and haptens. Its unique advantage lies in its ability to discern specific molecular interactions, making it valuable in specialized research contexts.</p>
+                                </li>                                                                
                             </ol>
                         </p>
+                        <p>
+                            <h3>Dieseases that can be diagnosed using ELISA</h3>
+                            <ul>
+                                <li>Ebola</li>
+                                <li>HIV, which causes AIDS</li>
+                                <li>Lyme disease</li>
+                                <li>Pernicious anemia</li>
+                                <li>Rotavirus</li>
+                                <li>Carcinoma of the epithelial cells</li>
+                                <li>Toxoplasmosis</li>
+                                <li>Syphilis</li>
+                                <li>Zika virus</li>
+                                <li>Varicella-zoster virus, which causes chicken pox and shingles</li>
+                                <li>Rocky Mountain spotted feveri</li>
+                            </ul>
+                            <h3>Advantages </h3>
+                            <ul>
+                                <li>ELISA tests are highly specific and give an accurate diagnosis of a particular disease since two antibodies are used</li>
+                                <li>It can be performed very quickly and can yield results within an hour</li>
+                                <li>ELISA tests are not so expensive and  can be performed in most of the laboratories easily</li>
+                                <li>It can be used to measure the concentration of an antigen or antibody in a sample and is useful for monitoring disease progression or response to treatment</li>
+                            </ul>
+                            <h3>Applications </h3>
+                            <ul>
+                                <li>Medical diagnostics (e.g., disease detection, hormone analysis)</li>
+                                <li>Monitoring of autoimmune diseases</li>
+                                <li>Drug testing in urine and blood samples</li>
+                                <li>Allergy testing (e.g., food allergies)</li>
+                                <li>Detection of infectious diseases (e.g., HIV, hepatitis)</li>
+                                <li>Environmental monitoring (e.g., detecting pollutants)</li>
+                                <li>Research and development in biotechnology and pharmaceuticals</li>
+                                <li>Veterinary diagnostics (e.g., animal diseases)</li>
+                                <li>Quality control in food and beverage industries</li>
+                                <li>Detection of specific proteins in research studies</li>
+                            </ul>
+                        </p>
                     </div>
-                </div>
-                <br>
-                <div style="text-align: center;">
-                    <img src="./img/image.png" width="850px">
                 </div>
             </div>
         </div>
